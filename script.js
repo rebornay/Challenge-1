@@ -1,5 +1,5 @@
 // TEST DATA 1
-
+/*
 // MARK'S DETAILS
 const heightOfMark = 1.69;
 const weightOfMark = 78;
@@ -53,4 +53,13 @@ console.log(johnBMI2);
 
 // Boolean Variable
 const markHigherBMI2 = markBMI2 > johnBMI2; 
-console.log(markHigherBMI2);
+console.log(markHigherBMI2); */
+
+const firstName = 'Samson';
+const job = 'Programmer';
+const birthYear = 2000;
+const year = 2025;
+
+const aboutMe = "I'm " + firstName + ', a ' + (year - birthYear) + 'years old ' + job + '!';
+
+console.log(aboutMe);
