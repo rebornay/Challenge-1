@@ -13,8 +13,10 @@ const weightOfJohn = 92;
 
 // MARK'S BMI
 const markBMI = 78 / 1.69 ** 2;
+//const markBMI = 78 / (1.69 * 1.69); // Second formula
 console.log(markBMI);
 
 // JOHN'S BMI 
 const johnBMI = 92 / 1.95 ** 2; 
+//const johnBMI = 92 / (1.95 * 1.95); // Second formula 
 console.log(johnBMI);
