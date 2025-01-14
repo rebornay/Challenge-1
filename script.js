@@ -7,3 +7,5 @@ const weightOfMark = 78;
 // JOHN'S DETAILS
 const heightOfJohn = 1.95;
 const weightOfJohn = 92;
+
+// BMI = Weight / height ** 2 = Weight / (height * height)
