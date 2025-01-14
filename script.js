@@ -60,6 +60,15 @@ const job = 'Programmer';
 const birthYear = 2000;
 const year = 2025;
 
-const aboutMe = "I'm " + firstName + ', a ' + (year - birthYear) + 'years old ' + job + '!';
+const aboutMe = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
 
 console.log(aboutMe);
+
+const aboutMeNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(aboutMeNew);
+
+console.log('String \n\ with multiple \n\ lines');
+
+console.log(`String
+multiple
+lines`);
