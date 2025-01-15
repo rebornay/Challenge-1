@@ -74,9 +74,12 @@ console.log(`String
 multiple
 lines`);*/
 
-const age = 19;
+const age = 15;
 const isOldEnough = age >= 18;
 
 if (isOldEnough) {
     console.log('Sarah can start driving license 🚗');
+} else {
+    const yearsleft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsleft} years`);
 }
