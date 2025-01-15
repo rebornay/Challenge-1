@@ -83,3 +83,5 @@ if (isOldEnough) {
     const yearsleft = 18 - age;
     console.log(`Sarah is too young. Wait another ${yearsleft} years`);
 }
+
+const birthYear = 1998;
