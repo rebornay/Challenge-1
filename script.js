@@ -85,3 +85,7 @@ if (isOldEnough) {
 }
 
 const birthYear = 1998;
+
+if (birthYear <= 2000) {
+ let century = 20
+}
