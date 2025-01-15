@@ -92,3 +92,11 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+const user = 'reborn';
+
+if (user === reborn) {
+    console.log (`Welcome`);
+}else {
+    console.log(`Create an account`);
+}
