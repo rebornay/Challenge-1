@@ -1,5 +1,5 @@
 // TEST DATA 1
-/*
+
 // MARK'S DETAILS
 const heightOfMark = 1.69;
 const weightOfMark = 78;
@@ -28,6 +28,8 @@ console.log(markHigherBMI);
 
 
 
+
+/*
 // TEST DATA 2
 
 // MARK'S DETAILS
@@ -74,6 +76,8 @@ console.log(`String
 multiple
 lines`);*/
 
+
+/*
 const age = 15;
 const isOldEnough = age >= 18;
 
@@ -93,10 +97,4 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 
-const user = 'reborn';
-
-if (user === reborn) {
-    console.log (`Welcome`);
-}else {
-    console.log(`Create an account`);
-}
+} */
