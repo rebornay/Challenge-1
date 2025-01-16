@@ -33,7 +33,7 @@ console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`)
 
 
 
-/*
+
 // TEST DATA 2
 
 // MARK'S DETAILS
@@ -59,7 +59,13 @@ console.log(johnBMI2);
 
 // Boolean Variable
 const markHigherBMI2 = markBMI2 > johnBMI2; 
-console.log(markHigherBMI2); */
+console.log(markHigherBMI2); 
+
+if (markBMI2 > johnBMI2) {
+    console.log(`Mark's BMI (${markBMI2}) is higher than John's (${johnBMI2})!`)
+    } else {
+        console.log(`John's BMI (${johnBMI2}) is higher than Mark's(${markBMI2})!`)
+}
 
 /*
 const firstName = 'Samson';
