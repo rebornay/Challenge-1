@@ -1,3 +1,4 @@
+/*
 // TEST DATA 1
 
 // MARK'S DETAILS
@@ -29,10 +30,10 @@ if (markBMI > johnBMI) {
 console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`)
 } else {
     console.log(`John's BMI is higher than Mark's!`)
-}
+}  */
 
 
-
+/*
 
 // TEST DATA 2
 
@@ -65,7 +66,7 @@ if (markBMI2 > johnBMI2) {
     console.log(`Mark's BMI (${markBMI2}) is higher than John's (${johnBMI2})!`)
     } else {
         console.log(`John's BMI (${johnBMI2}) is higher than Mark's(${markBMI2})!`)
-}
+}  */
 
 /*
 const firstName = 'Samson';
@@ -108,3 +109,6 @@ if (birthYear <= 2000) {
 console.log(century);
 
 } */
+
+const inputYear = '1991';
+console.log(inputYear + 18);
