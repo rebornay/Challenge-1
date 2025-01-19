@@ -109,6 +109,8 @@ if (birthYear <= 2000) {
 console.log(century);
 
 } */
+
+/*
 // Type conversion
 const inputYear = '1991';
 console.log(Number(inputYear),  inputYear);
@@ -126,4 +128,11 @@ console.log('23' / '2')
 
 let n = '1' + 1;
 n = n - 1;
-console.log(n);
+console.log(n); */
+
+// Falsey values are 0, NaN, undefined, null, false, ''(empty string)
+
+console.log(Boolean(0))
+console.log(Boolean(undefined))
+console.log(Boolean(-1))
+console.log(Boolean({}))
