@@ -121,3 +121,9 @@ console.log(String(23), 23);
 
 // Type coercion
 console.log('I am ' +  24  + ' years old')
+console.log('23'-'10' - 3)
+console.log('23' / '2')
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
