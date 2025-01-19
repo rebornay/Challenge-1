@@ -132,7 +132,15 @@ console.log(n); */
 
 // Falsey values are 0, NaN, undefined, null, false, ''(empty string)
 
-console.log(Boolean(0))
-console.log(Boolean(undefined))
-console.log(Boolean(-1))
-console.log(Boolean({}))
+// console.log(Boolean(0))
+// console.log(Boolean(undefined))
+// console.log(Boolean(-1))
+// console.log(Boolean({}))
+
+const money = 0;
+
+if (money){
+    console.log(`Don't spend it at all`);
+} else {
+    console.log(`You should get a job!`)
+}
