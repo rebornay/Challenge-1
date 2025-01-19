@@ -144,3 +144,10 @@ if (money){
 } else {
     console.log(`You should get a job!`)
 }
+
+let height = 0;
+if (height) {
+    console.log("YAY, Height is defined!")
+} else {
+    console.log("Height is not defined!")
+}
