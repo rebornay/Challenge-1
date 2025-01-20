@@ -155,4 +155,6 @@ if (height) {
 const age = 18;
  if (age === 18) console.log('You just became an adult', '18' == 18)
 
-prompt("What is your favourite number?")
+const favourite = prompt("What is your favourite number?")
+
+console.log (favourite);
