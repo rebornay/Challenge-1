@@ -136,7 +136,7 @@ console.log(n); */
 // console.log(Boolean(undefined))
 // console.log(Boolean(-1))
 // console.log(Boolean({}))
-
+/*
 const money = 0;
 
 if (money){
@@ -150,4 +150,7 @@ if (height) {
     console.log("YAY, Height is defined!")
 } else {
     console.log("Height is not defined!")
-}
+} */
+
+const age = 18;
+ if (age === 18) console.log('You just became an adult')
