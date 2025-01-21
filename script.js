@@ -164,6 +164,11 @@ if (favourite === 23){
     console.log("Cool, 23 is an amazing number!");
 } else if (favourite === 7) {
     console.log('7 is also a cool number!');
+   
+}  else if (favourite === 9){
+    console.log("9 is a cool number");
 } else {
     console.log('Number is neither 23 nor 7');
 }
+
+if (favourite !== 23) console.log("Why not 23?")
