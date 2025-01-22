@@ -172,4 +172,5 @@ if (favourite === 23){
 }
 
 if (favourite !== 23) console.log("Why not 23?")
-if (favourite !== 25) console.log("Why not 23?")
+if (favourite !== 25) console.log("Why not 25?")
+if (favourite !== 30) console.log("Why not 30?")
