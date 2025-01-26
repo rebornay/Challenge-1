@@ -151,7 +151,7 @@ if (height) {
 } else {
     console.log("Height is not defined!")
 } */
-
+/*
 const age = 18;
  if (age === 18) console.log('You just became an adult', '18' == 18)
 
@@ -170,7 +170,9 @@ if (favourite === 23){
 } else {
     console.log('Number is neither 23 nor 7');
 }
+*/
 
+/*
 if (favourite !== 23) console.log("Why not 23?")
 if (favourite !== 25) console.log("Why not 25?")
 if (favourite !== 30) console.log("Why not 30?")
@@ -179,4 +181,12 @@ if (favourite !== 80) console.log("Why not 80?")
 if (favourite !== 100) console.log("Why not 100?")
 if (favourite !== 120) console.log("Why not 120?")
 if (favourite !== 150) console.log("Why not 150?")
-if (favourite !== 200) console.log("Why not 200?")
+if (favourite !== 200) console.log("Why not 200?") */
+
+const hasDriversLicense = true; // A
+const hasGoodVision = false; // B
+
+console.log (hasDriversLicense && hasGoodVision);
+console.log (hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
