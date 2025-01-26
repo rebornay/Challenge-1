@@ -184,9 +184,17 @@ if (favourite !== 150) console.log("Why not 150?")
 if (favourite !== 200) console.log("Why not 200?") */
 
 const hasDriversLicense = true; // A
-const hasGoodVision = false; // B
+const hasGoodVision = true; // B
 
 console.log (hasDriversLicense && hasGoodVision);
 console.log (hasDriversLicense || hasGoodVision);
 console.log(!hasDriversLicense);
 
+if (hasDriversLicense && hasGoodVision) {
+console.log("Sarah is able to drive")
+}else {
+    console.log("Someone else should drive...")
+}
+
+const isTired = false; // C
+console.log (hasDriversLicense && hasGoodVision && !isTired);
