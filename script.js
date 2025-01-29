@@ -182,7 +182,7 @@ if (favourite !== 100) console.log("Why not 100?")
 if (favourite !== 120) console.log("Why not 120?")
 if (favourite !== 150) console.log("Why not 150?")
 if (favourite !== 200) console.log("Why not 200?") */
-
+/*
 const hasDriversLicense = true; // A
 const hasGoodVision = true; // B
 
@@ -197,4 +197,39 @@ console.log("Sarah is able to drive")
 }
 
 const isTired = false; // C
-console.log (hasDriversLicense && hasGoodVision && !isTired);
+console.log (hasDriversLicense && hasGoodVision && !isTired);*/
+
+/*
+TEST DATA
+Dolphin score 96, 108 and 89
+Koalas score 88, 91 and 110 */
+
+/*
+const dolphinAverageScore = (96 + 108 + 89)/3;
+
+const koalasAverageScore = (88 + 91 + 110)/3;
+console.log(dolphinAverageScore, koalasAverageScore);
+
+if (dolphinAverageScore > koalasAverageScore) {
+    console.log("Dolphin wins the trophy!🏆")
+} else if (dolphinAverageScore < koalasAverageScore) {
+    console.log("Koalas wins the trophy! 🏆")
+} else {
+    console.log("They both won the trophy!")
+}
+*/
+
+// TEST DATA BONUS 1
+
+const dolphinAverageScore = (91 + 112 + 101)/3;
+
+const koalasAverageScore = (109 + 95 + 123)/3;
+console.log(dolphinAverageScore, koalasAverageScore);
+
+if (dolphinAverageScore > koalasAverageScore && dolphinAverageScore >= 100) {
+    console.log("Dolphin wins the trophy!🏆")
+} else if ( koalasAverageScore > dolphinAverageScore && koalasAverageScore >= 100) {
+    console.log("Koalas wins the trophy! 🏆")
+} else {
+    console.log("They both won the trophy!")
+}
