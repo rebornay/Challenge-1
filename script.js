@@ -232,4 +232,5 @@ if (dolphinAverageScore > koalasAverageScore && dolphinAverageScore >= 100) {
     console.log("Koalas wins the trophy! 🏆")
 } else {
     console.log("They both won the trophy!")
+    console.log("They both won the trophy!")
 }
