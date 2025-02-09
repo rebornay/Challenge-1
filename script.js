@@ -221,7 +221,8 @@ if (dolphinAverageScore > koalasAverageScore) {
 
 // TEST DATA BONUS 1
 
-const dolphinAverageScore = (91 + 112 + 101)/3;
+// const dolphinAverageScore = (91 + 112 + 101)/3;
+const dolphinAverageScore = (91 + 119 + 106)/3;
 
 const koalasAverageScore = (109 + 95 + 123)/3;
 console.log(dolphinAverageScore, koalasAverageScore);
