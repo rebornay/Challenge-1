@@ -222,15 +222,46 @@ if (dolphinAverageScore > koalasAverageScore) {
 // TEST DATA BONUS 1
 
 // const dolphinAverageScore = (91 + 112 + 101)/3;
-const dolphinAverageScore = (91 + 119 + 106)/3;
+// const dolphinAverageScore = (91 + 119 + 106)/3;
 
-const koalasAverageScore = (109 + 95 + 123)/3;
-console.log(dolphinAverageScore, koalasAverageScore);
+// const koalasAverageScore = (109 + 95 + 123)/3;
+// console.log(dolphinAverageScore, koalasAverageScore);
 
-if (dolphinAverageScore > koalasAverageScore && dolphinAverageScore >= 100) {
-    console.log("Dolphin wins the trophy!🏆")
-} else if ( koalasAverageScore > dolphinAverageScore && koalasAverageScore >= 100) {
-    console.log("Koalas wins the trophy! 🏆")
-} else {
-    console.log("They both won the trophy!")
+// if (dolphinAverageScore > koalasAverageScore && dolphinAverageScore >= 100) {
+//     console.log("Dolphin wins the trophy!🏆")
+// } else if ( koalasAverageScore > dolphinAverageScore && koalasAverageScore >= 100) {
+//     console.log("Koalas wins the trophy! 🏆")
+// } else {
+//     console.log("They both won the trophy!")
+// }
+
+// Using switch and break
+
+// const day = ''; 
+const day = 'Monday'; 
+
+switch (day) {
+    case 'Monday': // day === 'Monday'
+        console.log('Plan course structure');
+        console.log('Go to coding meet-up');
+    // break;
+    case 'Tuesday': // day === 'Tuesday'
+        console.log('Prepare theory videos');
+    break;
+    case 'Wednesday':
+    case 'Thursday':
+        console.log('Write code examples');
+    break;
+    case 'Friday':
+        console.log('Record videos');
+    break;
+    case 'Saturday':
+    case 'Sunday':
+        console.log('Enjoy the weekend');
+    break;
+    case '':
+        console.log('Empty')
+    break;
+    default:
+        console.log('Not a valid day!');
 }
