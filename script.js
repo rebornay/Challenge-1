@@ -238,8 +238,9 @@ if (dolphinAverageScore > koalasAverageScore) {
 // Using switch and break
 
 // const day = ''; 
-const day = 'Monday'; 
+// const day = 'Monday'; 
 
+/*
 switch (day) {
     case 'Monday': // day === 'Monday'
         console.log('Plan course structure');
@@ -264,4 +265,21 @@ switch (day) {
     break;
     default:
         console.log('Not a valid day!');
+}
+*/
+const day = 'Sunday'; 
+
+if (day === 'Monday'){
+    console.log('Plan course structure');
+    console.log('Go to coding meet-up');
+} else if (day === 'Tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'Wednesday' || day === 'Thursday'){
+    console.log('Write code examples');
+} else if (day === 'Friday') {
+    console.log('Record videos');
+} else if (day === 'Saturday' || day === 'Sunday') {
+    console.log('Enjoy the weekend');
+} else {
+    console.log('Not a valid day!')
 }
