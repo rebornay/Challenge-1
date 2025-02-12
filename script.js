@@ -282,4 +282,5 @@ if (day === 'Monday'){
     console.log('Enjoy the weekend');
 } else {
     console.log('Not a valid day!')
+    console.log('Try again later!')
 }
