@@ -283,4 +283,5 @@ if (day === 'Monday'){
 } else {
     console.log('Not a valid day!')
     console.log('Try again later!')
+    console.log('Something unique!')
 }
