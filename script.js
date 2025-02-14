@@ -278,6 +278,7 @@ if (day === 'Monday'){
     console.log('Write code examples');
 } else if (day === 'Friday') {
     console.log('Record videos');
+    console.log('Read programming books');
 } else if (day === 'Saturday' || day === 'Sunday') {
     console.log('Enjoy the weekend');
 } else {
