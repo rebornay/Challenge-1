@@ -274,6 +274,7 @@ if (day === 'Monday'){
     console.log('Go to coding meet-up');
 } else if (day === 'Tuesday') {
     console.log('Prepare theory videos');
+    console.log('Prepare practical videos');
 } else if (day === 'Wednesday' || day === 'Thursday'){
     console.log('Write code examples');
 } else if (day === 'Friday') {
