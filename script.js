@@ -267,6 +267,8 @@ switch (day) {
         console.log('Not a valid day!');
 }
 */
+
+/*
 const day = 'Sunday'; 
 
 if (day === 'Monday'){
@@ -287,3 +289,11 @@ if (day === 'Monday'){
     console.log('Try again later!')
     console.log('Something unique!')
 }
+
+*/
+
+// Ternary Operator
+
+const age = 23;
+age >= 18 ? console.log("I like to drink wine 🍷"): 
+console.log("I will drink water 💦💧")
