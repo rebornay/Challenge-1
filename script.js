@@ -295,5 +295,17 @@ if (day === 'Monday'){
 // Ternary Operator
 
 const age = 23;
-age >= 18 ? console.log("I like to drink wine 🍷"): 
-console.log("I will drink water 💦💧")
+// age >= 18 ? console.log("I like to drink wine 🍷"): 
+// console.log("I will drink water 💦💧");
+
+const drink = age >= 18 ? 'Wine': 'Water';
+console.log(drink);
+
+let drink2;
+if (age >= 18){
+    drink2 = 'WINE';
+} else {
+    drink2 = 'WATER';
+}
+
+console.log(drink2);
