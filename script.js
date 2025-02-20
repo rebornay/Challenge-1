@@ -294,6 +294,7 @@ if (day === 'Monday'){
 
 // Ternary Operator
 
+/*
 const age = 13;
 // age >= 18 ? console.log("I like to drink wine 🍷"): 
 // console.log("I will drink water 💦💧");
@@ -311,3 +312,13 @@ if (age >= 18){
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? 'Wine': 'Vijumilk'}`);
+
+*/
+
+// Building a simple tip calculator
+
+const bill = 430;
+let tip;
+bill >= 50 && bill <= 300 ? tip = (bill * 0.15): tip = (bill * 0.2);
+
+console.log(`The bill value was ${bill} the tip was ${tip}, and the total value ${bill + tip}`);
