@@ -317,8 +317,7 @@ console.log(`I like to drink ${age >= 18 ? 'Wine': 'Vijumilk'}`);
 
 // Building a simple tip calculator
 
-const bill = 430;
-let tip;
-bill >= 50 && bill <= 300 ? tip = (bill * 0.15): tip = (bill * 0.2);
+const bill = 275;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15: bill * 0.2;
 
 console.log(`The bill value was ${bill} the tip was ${tip}, and the total value ${bill + tip}`);
